@@ -3,8 +3,8 @@ const sortByDescendingFriendCount = (users) => {
     const b = users.friends;
 
    const newArray = users.toSorted((a, b) => b.friends.length - a.friends.length);
-    console.log(users.Array);
-    return usersArray;
+    
+    return newArray;
 
 }
 
@@ -87,7 +87,6 @@ console.log(
 //     gender: "male"
 //   }
 // ]
-
 
 
 
