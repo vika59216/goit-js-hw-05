@@ -1,7 +1,8 @@
 
 const getUsersWithFriend = (users, friendName) => {
     const newArray = users.friends.includes(friendName);
-    console.log(newArray);
+   return newArray;
+    
  }
     const allUsers = [
     
